@@ -1,0 +1,16 @@
+.div4 {
+  height: 400px;
+  width: 400px;
+  background-color: black;
+}
+
+.div {
+  height: 300px;
+  width: 300px;
+  background-color: navy;
+  transition: transform 0.3s linear;
+}
+
+.div:hover {
+  transform: translateX(100%);
+}
